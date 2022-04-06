@@ -1,19 +1,16 @@
-Arabic_Kuthu_song="";
-Samajavara_gamana_song="";
+song="";
+song1="";
+function preload() {
+    song =loadSound("Arabic Kuthu.mp3");
+    song1 =loadSound("Samajavara gamana.mp3");
 
-function setup(){
-    canvas = createCanvas(600,530);
+}
+function setup() {
+    canvas = createCanvas(600,500);
     canvas.center();
-
     video = createCapture(VIDEO);
-    video.hide();
+    video.hide;
 }
-
-function preload(){
-    Arabic_Kuthu_song = loadSound("music2.mp3");
-    Samajavara_gamana_song = loadSound("music.mp3");
-}
-
-function draw(){
-    image(video,0,0,600,530);
+function draw() {
+    image(video,0,0,600,500);
 }
