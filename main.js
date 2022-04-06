@@ -10,8 +10,8 @@ function setup(){
 }
 
 function preload(){
-    Peter_pan_song = loadSound("music2.mp3");
-    Harry_potter_theme_song = loadSound("music.mp3");
+    Arabic_Kuthu_song = loadSound("music2.mp3");
+    Samajavara_gamana_song = loadSound("music.mp3");
 }
 
 function draw(){
